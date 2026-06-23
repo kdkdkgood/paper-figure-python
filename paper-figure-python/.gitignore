@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+demo/
+examples/_output/
+
+# 经验成长系统：种子（BOOT/INDEX/entries 种子条）随技能分发，运行时积累默认本地保留
+memory/inbox/candidates.jsonl
+memory/archive/*
+!memory/archive/.gitkeep
+# 项目层经验含数据语义，绝不进版本库
+.paper-figure-memory/

@@ -1,0 +1,19 @@
+{
+  "shape_axis_key": "2x2|shared_axis",
+  "allowed_layouts": [
+    "quad-2x2"
+  ],
+  "default_variant": "line+line+line+line",
+  "variants": {
+    "line+line+line+line": {
+      "adjust_spec": {
+        "left": 0.09,
+        "right": 0.985,
+        "top": 0.98,
+        "bottom": 0.17,
+        "wspace": 0.0,
+        "hspace": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "runtime-baseline/1",
+  "protected_files": [
+    "runtime/__init__.py",
+    "runtime/engine.py",
+    "runtime/context.py",
+    "runtime/helpers.py",
+    "runtime/integrity.py",
+    "orchestrator/core.py"
+  ],
+  "fingerprints": {
+    "runtime/__init__.py": "47e915720863b487",
+    "runtime/engine.py": "56c57b4724871bc6",
+    "runtime/context.py": "bdf2996f418e91e4",
+    "runtime/helpers.py": "b6c89c97fd911a2b",
+    "runtime/integrity.py": "7f94ba293865cc5c",
+    "orchestrator/core.py": "d7ca5f0f65eb870a"
+  }
+}

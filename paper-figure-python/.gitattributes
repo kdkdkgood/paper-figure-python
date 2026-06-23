@@ -1,0 +1,12 @@
+# 共享底座文件：禁止 git 改写换行符（CRLF/LF 归一化），
+# 否则跨平台 clone（尤其 Windows autocrlf）会改变字节内容，
+# 导致 .runtime_baseline.json 指纹比对误报底座被改动。
+scripts/runtime/__init__.py   -text
+scripts/runtime/engine.py     -text
+scripts/runtime/context.py    -text
+scripts/runtime/helpers.py    -text
+scripts/runtime/integrity.py  -text
+scripts/orchestrator/core.py  -text
+
+# 基线文件本身也固定换行符，保证跨平台一致。
+scripts/.runtime_baseline.json -text

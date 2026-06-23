@@ -1,0 +1,19 @@
+{
+  "shape_axis_key": "2x3|shared_axis",
+  "allowed_layouts": [
+    "hex-2x3"
+  ],
+  "default_variant": "line+line+line+line+line+line",
+  "variants": {
+    "line+line+line+line+line+line": {
+      "adjust_spec": {
+        "left": 0.07,
+        "right": 0.99,
+        "top": 0.98,
+        "bottom": 0.18,
+        "wspace": 0.0,
+        "hspace": 0.0
+      }
+    }
+  }
+}

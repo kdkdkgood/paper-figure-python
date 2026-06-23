@@ -1,0 +1,25 @@
+{
+  "version": "v3-split",
+  "dir": "references/layout_priors",
+  "routes": {
+    "1x1|independent": "1x1_independent.json",
+    "1x2|independent": "1x2_independent.json",
+    "1x2|shared_axis": "1x2_shared_axis.json",
+    "1x3|independent": "1x3_independent.json",
+    "1x3|shared_axis": "1x3_shared_axis.json",
+    "1x4|independent": "1x4_independent.json",
+    "1x4|shared_axis": "1x4_shared_axis.json",
+    "2x1|independent": "2x1_independent.json",
+    "2x1|shared_axis": "2x1_shared_axis.json",
+    "2x2|independent": "2x2_independent.json",
+    "2x2|shared_axis": "2x2_shared_axis.json",
+    "2x3|independent": "2x3_independent.json",
+    "2x3|shared_axis": "2x3_shared_axis.json",
+    "3x1|independent": "3x1_independent.json",
+    "3x1|shared_axis": "3x1_shared_axis.json",
+    "3x2|independent": "3x2_independent.json",
+    "3x2|shared_axis": "3x2_shared_axis.json",
+    "4x1|independent": "4x1_independent.json",
+    "4x1|shared_axis": "4x1_shared_axis.json"
+  }
+}

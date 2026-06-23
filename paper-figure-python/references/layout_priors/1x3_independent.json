@@ -1,0 +1,39 @@
+{
+  "shape_axis_key": "1x3|independent",
+  "allowed_layouts": [
+    "triple-1x3"
+  ],
+  "default_variant": "heatmap+heatmap+heatmap",
+  "variants": {
+    "line+line+line": {
+      "adjust_spec": {
+        "left": 0.09,
+        "right": 0.985,
+        "top": 0.98,
+        "bottom": 0.24,
+        "wspace": 0.26194500279211363,
+        "hspace": 0.0
+      }
+    },
+    "heatmap+heatmap+heatmap": {
+      "adjust_spec": {
+        "left": 0.09,
+        "right": 0.9461746031746031,
+        "top": 0.98,
+        "bottom": 0.24,
+        "wspace": 0.41720262766318134,
+        "hspace": 0.0
+      }
+    },
+    "line+bar+scatter": {
+      "adjust_spec": {
+        "left": 0.09,
+        "right": 0.985,
+        "top": 0.9711428571428572,
+        "bottom": 0.24,
+        "wspace": 0.2996618186965815,
+        "hspace": 0.0
+      }
+    }
+  }
+}
